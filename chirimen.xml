@@ -11,6 +11,7 @@
   <remote fetch="git://codeaurora.org/" name="caf"/>
   <remote fetch="https://git.mozilla.org/releases" name="mozillaorg"/>
   <remote fetch="git://github.com/flingone/" name="flingone"/>
+  <remote fetch="git://github.com/MozOpenHard/" name="mozopenhard"/>
 
   <!-- B2G specific things. -->
   <project name="gaia" path="gaia" remote="mozillaorg" revision="v2.1"/>
@@ -151,14 +152,15 @@
   <project path="hardware/rk29" name="hardware-rk29" remote="flingone" revision="flingone-kk"/>
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="flingone" revision="flingone-kk"/>
   <project path="hardware/libhardware_legacy" name="hardware_libhardware-legacy" remote="flingone" revision="flingone-kk"/>
-  <project path="kernel" name="rk3066-kernel" remote="flingone" revision="flingone-kk"/>
   <project path="patches" name="b2g-patches" remote="flingone" revision="v2.1-kk"/>
   <project path="rockdev" name="rockdev" remote="flingone" revision="flingone-kk" />
   <project path="rkst" name="rkst" remote="flingone" revision="flingone-kk" />
   <project path="system/core" name="platform_system_core" remote="flingone" revision="flingone-kk"/>
   <project path="system/displayd" name="system-displayd" remote="flingone" revision="flingone-kk"/>
   <project path="system/vold" name="system_vold" remote="flingone" revision="flingone-kk"/>
-  <project path="u-boot" name="rockchip_u-boot" remote="flingone" revision="rockchip"/>
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" />
+
+  <project name="linux-rockchip" path="kernel" remote="mozopenhard" revision="mozopenhard"/>
+  <project name="u-boot-rockchip" path="u-boot" remote="mozopenhard" revision="u-boot-rk3066"/>
 
 </manifest>
