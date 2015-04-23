@@ -14,8 +14,8 @@
   <remote fetch="git://github.com/MozOpenHard/" name="mozopenhard"/>
 
   <!-- B2G specific things. -->
-  <project name="gaia" path="gaia" remote="mozillaorg" revision="v2.1"/>
-  <project name="gecko" path="gecko" remote="mozillaorg" revision="v2.1"/>
+  <project name="gaia" path="gaia" remote="mozopenhard" revision="v2.1-mozopenhard"/>
+  <project name="gecko-dev" path="gecko" remote="mozopenhard" revision="b2g34_v2_1-mozopenhard"/>
   <project name="fake-libdvm" path="dalvik" remote="b2g" revision="v2.1"/>
   <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="v2.1"/>
   <project name="librecovery" path="librecovery" remote="b2g" revision="v2.1"/>
