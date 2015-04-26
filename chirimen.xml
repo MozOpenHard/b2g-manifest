@@ -137,7 +137,6 @@
   <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan"/>
   <project path="bootable/recovery" name="bootable-recovery" remote="flingone" revision="flingone-kk"/>
-  <project path="device/rockchip/rk3066" name="device-rockchip-rk3066" remote="flingone" revision="flingone-kk"/>
   <project path="device/rockchip/rksdk" name="device-rockchip-rksdk" remote="flingone" revision="flingone-kk"/>
   <project path="device/rockchip/common" name="device-rockchip-common" remote="flingone" revision="flingone-kk"/>
   <project path="external/alsa-lib" name="external-alsa-lib" remote="flingone" revision="flingone-kk"/>
@@ -160,6 +159,7 @@
   <project path="system/vold" name="system_vold" remote="flingone" revision="flingone-kk"/>
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" />
 
+  <project name="device-chirimen" path="device/rockchip/chirimen" remote="mozopenhard" revision="mozopenhard"/>
   <project name="linux-rockchip" path="kernel" remote="mozopenhard" revision="mozopenhard"/>
   <project name="u-boot-rockchip" path="u-boot" remote="mozopenhard" revision="u-boot-rk3066"/>
 
