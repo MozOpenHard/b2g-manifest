@@ -159,6 +159,7 @@
 
   <project name="device-chirimen" path="device/rockchip/chirimen" remote="mozopenhard" revision="mozopenhard"/>
   <project name="device-rockchip-rksdk" path="device/rockchip/rksdk" remote="mozopenhard" revision="mozopenhard"/>
+  <project name="i2c-tools" path="external/i2c-tools" remote="mozopenhard" revision="b2g"/>
   <project name="linux-rockchip" path="kernel" remote="mozopenhard" revision="mozopenhard"/>
   <project name="platform_system_core" path="system/core" remote="mozopenhard" revision="mozopenhard"/>
   <project name="u-boot-rockchip" path="u-boot" remote="mozopenhard" revision="u-boot-rk3066"/>
