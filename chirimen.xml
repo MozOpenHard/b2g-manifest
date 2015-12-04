@@ -14,15 +14,15 @@
   <remote fetch="git://github.com/MozOpenHard/" name="mozopenhard"/>
 
   <!-- B2G specific things. -->
-  <project name="gaia" path="gaia" remote="mozopenhard" revision="v2.1-mozopenhard"/>
-  <project name="gecko-dev" path="gecko" remote="mozopenhard" revision="b2g34_v2_1-mozopenhard"/>
-  <project name="fake-libdvm" path="dalvik" remote="b2g" revision="v2.1"/>
-  <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="v2.1"/>
-  <project name="librecovery" path="librecovery" remote="b2g" revision="v2.1"/>
-  <project name="moztt" path="external/moztt" remote="b2g" revision="v2.1"/>
-  <project name="rilproxy" path="rilproxy" remote="b2g" revision="v2.1"/>
-  <project name="valgrind" path="external/valgrind" remote="b2g" revision="v2.1"/>
-  <project name="vex" path="external/VEX" remote="b2g" revision="v2.1"/>
+  <project name="gaia" path="gaia" remote="mozopenhard" revision="v2.5"/>
+  <project name="gecko-dev" path="gecko" remote="mozopenhard" revision="b2g44_v2_5"/>
+  <project name="fake-libdvm" path="dalvik" remote="b2g" revision="v2.5"/>
+  <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="v2.5"/>
+  <project name="librecovery" path="librecovery" remote="b2g" revision="v2.5"/>
+  <project name="moztt" path="external/moztt" remote="b2g" revision="v2.5"/>
+  <project name="rilproxy" path="rilproxy" remote="b2g" revision="v2.5"/>
+  <project name="valgrind" path="external/valgrind" remote="b2g" revision="v2.5"/>
+  <project name="vex" path="external/VEX" remote="b2g" revision="v2.5"/>
   <project name="apitrace" path="external/apitrace" remote="apitrace" revision="master"/>
 
   <!-- Stock Android things -->
