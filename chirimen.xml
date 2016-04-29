@@ -157,6 +157,5 @@
   <project name="i2c-tools" path="external/i2c-tools" remote="chirimen" revision="b2g"/>
   <project name="linux-rockchip" path="kernel" remote="chirimen" revision="chirimen"/>
   <project name="platform_system_core" path="system/core" remote="chirimen" revision="chirimen"/>
-  <project name="u-boot-rockchip" path="u-boot" remote="chirimen" revision="u-boot-rk3066"/>
 
 </manifest>
