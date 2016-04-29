@@ -6,7 +6,7 @@
   <remote fetch="git://codeaurora.org/" name="caf"/>
   <remote fetch="https://git.mozilla.org/releases" name="mozillaorg"/>
   <remote fetch="git://github.com/flingone/" name="flingone"/>
-  <remote fetch="git://github.com/chirimen-org/" name="chirimen"/>
+  <remote fetch="git://github.com/chirimen-oh/" name="chirimen"/>
 
   <!-- B2G specific things. -->
   <project name="gaia" path="gaia" remote="chirimen" revision="v2.5"/>
