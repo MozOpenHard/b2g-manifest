@@ -146,7 +146,7 @@
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="flingone" revision="flingone-kk"/>
   <project path="hardware/libhardware_legacy" name="hardware_libhardware-legacy" remote="flingone" revision="flingone-kk"/>
   <project path="patches" name="b2g-patches" remote="chirimen" revision="v2.5-kk-no_seccomp"/>
-  <project path="rockdev" name="rockdev" remote="flingone" revision="flingone-kk" />
+  <project path="rockdev" name="b2g-rockdev" remote="chirimen" revision="master" />
   <project path="rkst" name="rkst" remote="flingone" revision="flingone-kk" />
   <project path="system/displayd" name="system-displayd" remote="flingone" revision="flingone-kk"/>
   <project path="system/vold" name="system_vold" remote="flingone" revision="flingone-kk"/>
