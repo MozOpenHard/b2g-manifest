@@ -126,7 +126,7 @@
   <default remote="aosp" revision="refs/tags/android-4.4.2_r1" sync-j="4"/>
 
   <!-- chirimen specific things -->
-  <project path="build" name="platform_build" remote="flingone" revision="flingone-kk">
+  <project path="build" name="platform_build" remote="chirimen" revision="chirimen">
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
   <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
